@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     overflow-x: hidden;
+}
+body {
+    overflow-x: hidden; /* Hides horizontal scroll */
 }
 
 .main-btn {
@@ -266,12 +268,13 @@ i {
 }
 
 .work-img img {
-    object-fit: cover;
     border-radius: 30px;
 }
 
 .work-img {
+    
     height: 400px;
+    object-fit: contain;
 }
 
 .work-img .col-md-6,
