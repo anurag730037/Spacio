@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 body {
-    overflow-x: hidden; /* Hides horizontal scroll */
+    overflow-x: hidden; 
 }
 
 .main-btn {
@@ -65,7 +65,7 @@ i {
 
 .background-container {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: white;
     overflow: hidden;
@@ -79,7 +79,7 @@ i {
     position: absolute;
     top: 0;
     left: 0;
-    height: 82%;
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
     url('img/bg-1.png');
@@ -168,9 +168,11 @@ i {
     font-size: 1.2rem;
     font-weight: 500;
 }
-
+.carousel{
+    height: 100%;
+}
 .carousel-inner {
-    height: 95vh;
+    height: 90vh;
 }
 
 .carousel-item {
@@ -273,7 +275,7 @@ i {
 
 .work-img {
     
-    height: 400px;
+    height: 500px;
     object-fit: contain;
 }
 
@@ -317,12 +319,12 @@ i {
     margin-bottom: 30px;
 }
 .set-bg{
- background-image: url('img/bg-4.jpg'); /* Replace with your image path */
-    background-size: cover; /* Makes the image cover the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
-    height: 100%; /* Adjust height as needed */
-    width: 100%; /* Ensures it covers the full width */
+ background-image: url('img/bg-4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%; 
     color: white;
 }
 
